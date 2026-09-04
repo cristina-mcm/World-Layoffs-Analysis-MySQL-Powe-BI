@@ -5,5 +5,7 @@ This MySQL project cleans and explores a global layoffs dataset covering 2020–
 
 This was completed as a guided project based on Alex The Analyst's Data Analyst Bootcamp, with additional comments and documentation added for clarity.
 
-<img width="1568" height="887" alt="image" src="https://github.com/user-attachments/assets/fcf53217-21e0-49cd-be82-1ef9d8a9c528" />
+<img width="1574" height="885" alt="image" src="https://github.com/user-attachments/assets/a79125d8-5fdf-45b7-9578-f5555298921a" />
+
+
 
