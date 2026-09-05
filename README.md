@@ -1,4 +1,4 @@
-# World-Layoffs-Analysis-MySQL
+# World Layoffs Analysis and Power BI Dashboard
 
 ## Project Overview
 
