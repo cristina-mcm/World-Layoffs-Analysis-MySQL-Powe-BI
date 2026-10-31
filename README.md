@@ -8,6 +8,16 @@ This project analyzes reported company layoffs worldwide between 2020 and 2023. 
 
 <img width="1574" height="885" alt="image" src="https://github.com/user-attachments/assets/a79125d8-5fdf-45b7-9578-f5555298921a" />
 
+## Key Findings
+
+- The dataset contains 383,659 reported layoffs across 1,628 companies.
+- The largest single reported layoff event involved 12,000 employees.
+- Reported layoffs accelerated during the second half of 2022 and reached their highest monthly level in early 2023.
+- The United States accounted for the largest share of reported layoffs among the countries represented.
+- Consumer and retail companies were among the industries with the highest reported layoffs.
+- Amazon reported the highest cumulative layoffs at approximately 18,200, followed by Google at 12,000 and Meta at 11,000.
+- Most companies among the top 10 were large technology or technology-related businesses, showing the sector’s significant role in the 2022–2023 increase.
+
 ## Data Cleaning
 
 The cleaning process included:
@@ -34,18 +44,14 @@ The SQL analysis examined:
 - Rolling monthly layoff totals
 - The five companies with the highest reported layoffs each year
 
-## Power BI Dashboard
+## Repository Contents
 
-The dashboard includes:
-
-- Total reported layoffs
-- Largest single reported layoff event
-- Number of companies represented
-- Reported layoffs by country
-- Monthly reported layoffs from 2020 to 2023
-- Top 10 companies by reported layoffs
-- Reported layoffs by industry
-- Interactive filters for year, country, and industry
+- [Data](Data/)
+  - [layoffs.csv](Data/layoffs.csv) — original dataset
+  - [layoffs_cleaned.csv](Data/layoffs_cleaned.csv) — cleaned dataset used for analysis and visualization
+- [world_layoffs_data_cleaning.sql](world_layoffs_data_cleaning.sql) — MySQL data-cleaning script
+- [world_layoffs_data_exploration.sql](world_layoffs_data_exploration.sql) — exploratory SQL queries
+- [world_layoffs_data_visualization.pbix](world_layoffs_data_visualization.pbix) — interactive Power BI dashboard
 
 ## Data Source
 
